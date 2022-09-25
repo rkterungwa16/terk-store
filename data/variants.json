@@ -1,0 +1,280 @@
+[
+  {
+    "id": "37d7e24b-84fd-4f80-b918-e13f1b0ecfd8",
+    "productId": "68a96c61-0fac-4daf-98f5-1f648f5e4113",
+    "availableStock": 19,
+    "images": [
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664113466/terk-store/women/anne-weyburn/fine-knit-sweater-with-v-neck/anne-weyburn-navy-2.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664113464/terk-store/women/anne-weyburn/fine-knit-sweater-with-v-neck/anne-weyburn-navy-3.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664113463/terk-store/women/anne-weyburn/fine-knit-sweater-with-v-neck/anne-weyburn-navy-1.webp"
+    ],
+    "color": {
+      "name": "navy",
+      "hexCode": "#191a26"
+    }
+  },
+  {
+    "id": "0b383daf-bf94-4adf-a59d-fb4f9cd7e042",
+    "productId": "68a96c61-0fac-4daf-98f5-1f648f5e4113",
+    "availableStock": 24,
+    "images": [
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664113589/terk-store/women/anne-weyburn/fine-knit-sweater-with-v-neck/anne-weyburn-plum-2.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664113587/terk-store/women/anne-weyburn/fine-knit-sweater-with-v-neck/anne-weyburn-plum-1.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664113587/terk-store/women/anne-weyburn/fine-knit-sweater-with-v-neck/anne-weyburn-plum-3.webp"
+    ],
+    "color": {
+      "name": "plum",
+      "hexCode": "#a50c73"
+    }
+  },
+  {
+    "id": "33b1820b-2d85-4dca-8632-5a7901822790",
+    "productId": "68a96c61-0fac-4daf-98f5-1f648f5e4113",
+    "availableStock": 25,
+    "images": [
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664113676/terk-store/women/anne-weyburn/fine-knit-sweater-with-v-neck/anne-weyburn-blue-purple-2.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664113675/terk-store/women/anne-weyburn/fine-knit-sweater-with-v-neck/anne-weyburn-blue-purple-3.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664113675/terk-store/women/anne-weyburn/fine-knit-sweater-with-v-neck/anne-weyburn-blue-purple-1.webp"
+    ],
+    "color": {
+      "name": "blue purple",
+      "hexCode": "#28285c"
+    }
+  },
+  {
+    "id": "68e13a7c-9e7e-49ef-9bc5-b1d4b43f668f",
+    "productId": "2282eea-31b8-4742-a178-73882024ecca",
+    "availableStock": 24,
+    "images": [
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664114129/terk-store/women/la-redoute/basic-cardigan/la-redoute-black-2.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664114129/terk-store/women/la-redoute/basic-cardigan/la-redoute-black-1.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664114129/terk-store/women/la-redoute/basic-cardigan/la-redoute-black-3.webp"
+    ],
+    "color": {
+      "name": "black",
+      "hexCode": "#1e1c1d"
+    }
+  },
+  {
+    "id": "476fca2b-e1de-4ab1-b312-b7c5adb76776",
+    "productId": "2282eea-31b8-4742-a178-73882024ecca",
+    "availableStock": 27,
+    "images": [
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664114129/terk-store/women/la-redoute/basic-cardigan/la-redoute-navy-blue-4.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664114129/terk-store/women/la-redoute/basic-cardigan/la-redoute-navy-blue-1.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664114129/terk-store/women/la-redoute/basic-cardigan/la-redoute-navy-blue-2.webp"
+    ],
+    "color": {
+      "name": "navy blue",
+      "hexCode": "#1d2532"
+    }
+  },
+  {
+    "id": "1ef13d69-339c-4295-95cf-8d384b7c52c7",
+    "productId": "2282eea-31b8-4742-a178-73882024ecca",
+    "availableStock": 14,
+    "images": [
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664115983/terk-store/women/la-redoute/basic-cardigan/la-redoute-hazel-brown-1.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664115983/terk-store/women/la-redoute/basic-cardigan/la-redoute-hazel-brown-3.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664115983/terk-store/women/la-redoute/basic-cardigan/la-redoute-hazel-brown-2.webp"
+    ],
+    "color": {
+      "name": "hazel brown",
+      "hexCode": "#c38469"
+    }
+  },
+  {
+    "id": "343e3128-b028-4e3e-babc-078bafe23eca",
+    "productId": "8b561369-9745-4e80-8b63-053c6d31b1cf",
+    "availableStock": 0,
+    "images": [
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664141659/terk-store/women/la-redoute/basic-v-neck-sweater/la-redoute-navy-blue-1.webp"
+    ],
+    "color": {
+      "name": "navy blue",
+      "hexCode": "#1d2532"
+    }
+  },
+  {
+    "id": "e561aada-d4c5-4a14-a752-944c1405d9e9",
+    "productId": "0f3a119a-feab-42be-996a-75ee0594c1d2",
+    "availableStock": 16,
+    "images": [
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664114747/terk-store/women/la-redoute/cotton-long-sleeve-sweater-with-ruffled-high-neck/la-redoute-dusty-pink-3.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664114747/terk-store/women/la-redoute/cotton-long-sleeve-sweater-with-ruffled-high-neck/la-redoute-dusty-pink-1.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664114747/terk-store/women/la-redoute/cotton-long-sleeve-sweater-with-ruffled-high-neck/la-redoute-dusty-pink-2.webp"
+    ],
+    "color": {
+      "name": "dusty pink",
+      "hexCode": "#cf7b81"
+    }
+  },
+  {
+    "id": "260c0cc3-4496-418d-a81b-1ba98159169c",
+    "productId": "0f3a119a-feab-42be-996a-75ee0594c1d2",
+    "availableStock": 12,
+    "images": [
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664114761/terk-store/women/la-redoute/cotton-long-sleeve-sweater-with-ruffled-high-neck/la-redoute-navy-blue-1.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664114761/terk-store/women/la-redoute/cotton-long-sleeve-sweater-with-ruffled-high-neck/la-redoute-navy-blue-2.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664114761/terk-store/women/la-redoute/cotton-long-sleeve-sweater-with-ruffled-high-neck/la-redoute-navy-blue-3.webp"
+    ],
+    "color": {
+      "name": "navy blue",
+      "hexCode": "#1d2532"
+    }
+  },
+  {
+    "id": "d6c3c998-508d-4010-8cd4-ba2ffb6d7108",
+    "productId": "0f3a119a-feab-42be-996a-75ee0594c1d2",
+    "availableStock": 24,
+    "images": [
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664114776/terk-store/women/la-redoute/cotton-long-sleeve-sweater-with-ruffled-high-neck/la-redoute-teal-3.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664114776/terk-store/women/la-redoute/cotton-long-sleeve-sweater-with-ruffled-high-neck/la-redoute-teal-2.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664114776/terk-store/women/la-redoute/cotton-long-sleeve-sweater-with-ruffled-high-neck/la-redoute-teal-1.webp"
+    ],
+    "color": {
+      "name": "teal",
+      "hexCode": "#0a474c"
+    }
+  },
+  {
+    "id": "0d084af3-deff-4fa1-8240-357ebb78bf47",
+    "productId": "9c667991-9353-410c-a70f-01e7ab4aa91d",
+    "availableStock": 26,
+    "images": [
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664120126/terk-store/men/merino-wool-turtleneck-sweater/la-redoute-flannel-grey-1.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664120126/terk-store/men/merino-wool-turtleneck-sweater/la-redoute-flannel-grey-2.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664120126/terk-store/men/merino-wool-turtleneck-sweater/la-redoute-flannel-grey-3.webp"
+    ],
+    "color": {
+      "name": "flannel green",
+      "hexCode": "#404144"
+    }
+  },
+  {
+    "id": "c4504cb2-c370-44f3-9aba-b19af9776ec2",
+    "productId": "9c667991-9353-410c-a70f-01e7ab4aa91d",
+    "availableStock": 13,
+    "images": [
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664134585/terk-store/men/merino-wool-turtleneck-sweater/la-redoute-hazelnut-3.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664134585/terk-store/men/merino-wool-turtleneck-sweater/la-redoute-hazelnut-2.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664134584/terk-store/men/merino-wool-turtleneck-sweater/la-redoute-hazelnut-1.webp"
+    ],
+    "color": {
+      "name": "hazelnut",
+      "hexCode": "#ab5c34"
+    }
+  },
+  {
+    "id": "3fbdca1e-7bd7-48aa-a6ce-be9dfeb1bc6c",
+    "productId": "4c4e8b2e-7d31-4de5-84cc-cea48c9a69b8",
+    "availableStock": 25,
+    "images": [
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664120920/terk-store/men/cotton-mix-hoodie-with-zip-fastening/la-redoute-black-2.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664120920/terk-store/men/cotton-mix-hoodie-with-zip-fastening/la-redoute-black-3.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664120920/terk-store/men/cotton-mix-hoodie-with-zip-fastening/la-redoute-black-1.webp"
+    ],
+    "color": {
+      "name": "black",
+      "hexCode": "#1e1c1d"
+    }
+  },
+  {
+    "id": "1f5b8113-c607-4557-8848-3a91042925a4",
+    "productId": "4c4e8b2e-7d31-4de5-84cc-cea48c9a69b8",
+    "availableStock": 24,
+    "images": [
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664120933/terk-store/men/cotton-mix-hoodie-with-zip-fastening/la-redoute-flannel-grey-3.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664120933/terk-store/men/cotton-mix-hoodie-with-zip-fastening/la-redoute-flannel-grey-1.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664120932/terk-store/men/cotton-mix-hoodie-with-zip-fastening/la-redoute-flannel-grey-2.webp"
+    ],
+    "color": {
+      "name": "flaneel grey",
+      "hexCode": "#959699"
+    }
+  },
+  {
+    "id": "8889907b-c824-41a9-a714-c2508dd27300",
+    "productId": "4c4e8b2e-7d31-4de5-84cc-cea48c9a69b8",
+    "availableStock": 15,
+    "images": [
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664120946/terk-store/men/cotton-mix-hoodie-with-zip-fastening/la-redoute-navy-blue-3.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664120946/terk-store/men/cotton-mix-hoodie-with-zip-fastening/la-redoute-navy-blue-2.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664120946/terk-store/men/cotton-mix-hoodie-with-zip-fastening/la-redoute-navy-blue-1.webp"
+    ],
+    "color": {
+      "name": "navy blue",
+      "hexCode": "#1d2532"
+    }
+  },
+  {
+    "id": "d2278033-172f-481f-8c1c-778b8568f929",
+    "productId": "389030af-7ebe-4169-b952-2568ddd0d00b",
+    "availableStock": 13,
+    "images": [
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664121838/terk-store/kids/chunky-knit-sweater-with-half-zip/la-redoute-grey-marl-2.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664121828/terk-store/kids/chunky-knit-sweater-with-half-zip/la-redoute-grey-marl-3.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664121828/terk-store/kids/chunky-knit-sweater-with-half-zip/la-redoute-grey-marl-1.webp"
+    ],
+    "color": {
+      "name": "grey marl",
+      "hexCode": "#878785"
+    }
+  },
+  {
+    "id": "c6202d08-ac30-40e8-91d1-3478b73df9d3",
+    "productId": "389030af-7ebe-4169-b952-2568ddd0d00b",
+    "availableStock": 22,
+    "images": [
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664121846/terk-store/kids/chunky-knit-sweater-with-half-zip/la-redoute-navy-1.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664121846/terk-store/kids/chunky-knit-sweater-with-half-zip/la-redoute-navy-2.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664121846/terk-store/kids/chunky-knit-sweater-with-half-zip/la-redoute-navy-3.webp"
+    ],
+    "color": {
+      "name": "navy",
+      "hexCode": "#191a26"
+    }
+  },
+  {
+    "id": "8240fbb8-56f4-48bf-9643-c14d25d1660a",
+    "productId": "04a78427-b099-4e6d-b366-86c6c53437d0",
+    "availableStock": 13,
+    "images": [
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664122262/terk-store/kids/cotton-mix-zip-up-hoodie/la-redoute-camel-3.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664122261/terk-store/kids/cotton-mix-zip-up-hoodie/la-redoute-camel-2.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664122261/terk-store/kids/cotton-mix-zip-up-hoodie/la-redoute-camel-1.webp"
+    ],
+    "color": {
+      "name": "camel",
+      "hexCode": "#c27154"
+    }
+  },
+  {
+    "id": "1f656492-5339-406d-8fb9-ba156896ccc8",
+    "productId": "04a78427-b099-4e6d-b366-86c6c53437d0",
+    "availableStock": 16,
+    "images": [
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664122283/terk-store/kids/cotton-mix-zip-up-hoodie/la-redoute-grey-marl-3.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664122282/terk-store/kids/cotton-mix-zip-up-hoodie/la-redoute-grey-marl-2.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664122282/terk-store/kids/cotton-mix-zip-up-hoodie/la-redoute-grey-marl-1.webp"
+    ],
+    "color": {
+      "name": "grey marl",
+      "hexCode": "#878785"
+    }
+  },
+  {
+    "id": "86e706ef-0869-4c5c-806a-e70b0faf0f11",
+    "productId": "04a78427-b099-4e6d-b366-86c6c53437d0",
+    "availableStock": 22,
+    "images": [
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664122340/terk-store/kids/cotton-mix-zip-up-hoodie/la-redoute-navy-blue-3.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664122338/terk-store/kids/cotton-mix-zip-up-hoodie/la-redoute-navy-blue-1.webp",
+      "https://res.cloudinary.com/doy0uyv63/image/upload/v1664122338/terk-store/kids/cotton-mix-zip-up-hoodie/la-redoute-navy-blue-2.webp"
+    ],
+    "color": {
+      "name": "navy blue",
+      "hexCode": "#1d2532"
+    }
+  }
+]

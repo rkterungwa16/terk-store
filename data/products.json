@@ -1,0 +1,266 @@
+[
+  {
+    "id": "68a96c61-0fac-4daf-98f5-1f648f5e4113",
+    "name": "'Fine Knit Sweater with V-Neck'",
+    "category": "f5a1e97f-50fe-45ba-8329-fc037c321d9d",
+    "brand": "bbe07e79-e148-47d6-879d-0aa34687b3c7",
+    "description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+    "sizes": [
+      "fab74a16-ac63-432d-9371-22aaffe6c216",
+      "845f9dd5-3fc6-45e2-b9bf-bbadfadeaa93",
+      "afafae72-bcc3-4a46-94a7-1758502a1aec",
+      "811d47d5-e9c5-45e7-aa17-6079a3ee7aa7"
+    ],
+    "price": [
+      {
+        "currency": "eee4a340-2e02-471d-aaf3-debe335e08dc",
+        "code": "USD",
+        "symbol": "$",
+        "amount": 50
+      },
+      {
+        "currency": "e38a6d7d-8320-4376-bf6a-6b8094cb5685",
+        "code": "EUR",
+        "symbol": "€",
+        "amount": 51.5
+      },
+      {
+        "currency": "ba9b0c30-4bdd-4e9e-9221-eeb3bc1af6f4",
+        "code": "JPY",
+        "symbol": "¥",
+        "amount": 7169
+      }
+    ]
+  },
+  {
+    "id": "72282eea-31b8-4742-a178-73882024ecca",
+    "name": "'Basic Cardigan'",
+    "category": "f5a1e97f-50fe-45ba-8329-fc037c321d9d",
+    "brand": "84fab0cc-97c0-487f-a34e-fee052d94fd0",
+    "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+    "sizes": [
+      "fab74a16-ac63-432d-9371-22aaffe6c216",
+      "845f9dd5-3fc6-45e2-b9bf-bbadfadeaa93",
+      "afafae72-bcc3-4a46-94a7-1758502a1aec",
+      "811d47d5-e9c5-45e7-aa17-6079a3ee7aa7"
+    ],
+    "price": [
+      {
+        "currency": "eee4a340-2e02-471d-aaf3-debe335e08dc",
+        "code": "USD",
+        "symbol": "$",
+        "amount": 50
+      },
+      {
+        "currency": "e38a6d7d-8320-4376-bf6a-6b8094cb5685",
+        "code": "EUR",
+        "symbol": "€",
+        "amount": 51.5
+      },
+      {
+        "currency": "ba9b0c30-4bdd-4e9e-9221-eeb3bc1af6f4",
+        "code": "JPY",
+        "symbol": "¥",
+        "amount": 7169
+      }
+    ]
+  },
+  {
+    "id": "8b561369-9745-4e80-8b63-053c6d31b1cf",
+    "name": "Basic V-Neck Sweater",
+    "category": "f5a1e97f-50fe-45ba-8329-fc037c321d9d",
+    "brand": "84fab0cc-97c0-487f-a34e-fee052d94fd0",
+    "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+    "sizes": [
+      "fab74a16-ac63-432d-9371-22aaffe6c216",
+      "845f9dd5-3fc6-45e2-b9bf-bbadfadeaa93",
+      "afafae72-bcc3-4a46-94a7-1758502a1aec",
+      "811d47d5-e9c5-45e7-aa17-6079a3ee7aa7"
+    ],
+    "price": [
+      {
+        "currency": "eee4a340-2e02-471d-aaf3-debe335e08dc",
+        "code": "USD",
+        "symbol": "$",
+        "amount": 50
+      },
+      {
+        "currency": "e38a6d7d-8320-4376-bf6a-6b8094cb5685",
+        "code": "EUR",
+        "symbol": "€",
+        "amount": 51.5
+      },
+      {
+        "currency": "ba9b0c30-4bdd-4e9e-9221-eeb3bc1af6f4",
+        "code": "JPY",
+        "symbol": "¥",
+        "amount": 7169
+      }
+    ]
+  },
+  {
+    "id": "0f3a119a-feab-42be-996a-75ee0594c1d2",
+    "name": "'Cotton Long Sleeve Sweater with Ruffled High Neck'",
+    "category": "f5a1e97f-50fe-45ba-8329-fc037c321d9d",
+    "brand": "84fab0cc-97c0-487f-a34e-fee052d94fd0",
+    "description": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+    "sizes": [
+      "fab74a16-ac63-432d-9371-22aaffe6c216",
+      "845f9dd5-3fc6-45e2-b9bf-bbadfadeaa93",
+      "afafae72-bcc3-4a46-94a7-1758502a1aec",
+      "811d47d5-e9c5-45e7-aa17-6079a3ee7aa7"
+    ],
+    "price": [
+      {
+        "currency": "eee4a340-2e02-471d-aaf3-debe335e08dc",
+        "code": "USD",
+        "symbol": "$",
+        "amount": 50
+      },
+      {
+        "currency": "e38a6d7d-8320-4376-bf6a-6b8094cb5685",
+        "code": "EUR",
+        "symbol": "€",
+        "amount": 51.5
+      },
+      {
+        "currency": "ba9b0c30-4bdd-4e9e-9221-eeb3bc1af6f4",
+        "code": "JPY",
+        "symbol": "¥",
+        "amount": 7169
+      }
+    ]
+  },
+  {
+    "id": "9c667991-9353-410c-a70f-01e7ab4aa91d",
+    "name": "'Merino Wool Turtleneck Sweater'",
+    "category": "b9a3d338-db3a-425a-a19d-0142d638f292",
+    "brand": "84fab0cc-97c0-487f-a34e-fee052d94fd0",
+    "description": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+    "sizes": [
+      "fab74a16-ac63-432d-9371-22aaffe6c216",
+      "845f9dd5-3fc6-45e2-b9bf-bbadfadeaa93",
+      "afafae72-bcc3-4a46-94a7-1758502a1aec",
+      "811d47d5-e9c5-45e7-aa17-6079a3ee7aa7"
+    ],
+    "price": [
+      {
+        "currency": "eee4a340-2e02-471d-aaf3-debe335e08dc",
+        "code": "USD",
+        "symbol": "$",
+        "amount": 50
+      },
+      {
+        "currency": "e38a6d7d-8320-4376-bf6a-6b8094cb5685",
+        "code": "EUR",
+        "symbol": "€",
+        "amount": 51.5
+      },
+      {
+        "currency": "ba9b0c30-4bdd-4e9e-9221-eeb3bc1af6f4",
+        "code": "JPY",
+        "symbol": "¥",
+        "amount": 7169
+      }
+    ]
+  },
+  {
+    "id": "4c4e8b2e-7d31-4de5-84cc-cea48c9a69b8",
+    "name": "'Cotton Mix Hoodie with Zip Fastening'",
+    "category": "b9a3d338-db3a-425a-a19d-0142d638f292",
+    "brand": "84fab0cc-97c0-487f-a34e-fee052d94fd0",
+    "description": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+    "sizes": [
+      "fab74a16-ac63-432d-9371-22aaffe6c216",
+      "845f9dd5-3fc6-45e2-b9bf-bbadfadeaa93",
+      "afafae72-bcc3-4a46-94a7-1758502a1aec",
+      "811d47d5-e9c5-45e7-aa17-6079a3ee7aa7"
+    ],
+    "price": [
+      {
+        "currency": "eee4a340-2e02-471d-aaf3-debe335e08dc",
+        "code": "USD",
+        "symbol": "$",
+        "amount": 50
+      },
+      {
+        "currency": "e38a6d7d-8320-4376-bf6a-6b8094cb5685",
+        "code": "EUR",
+        "symbol": "€",
+        "amount": 51.5
+      },
+      {
+        "currency": "ba9b0c30-4bdd-4e9e-9221-eeb3bc1af6f4",
+        "code": "JPY",
+        "symbol": "¥",
+        "amount": 7169
+      }
+    ]
+  },
+  {
+    "id": "389030af-7ebe-4169-b952-2568ddd0d00b",
+    "name": "'Chunky Knit Sweater with Half Zip'",
+    "category": "5c053fa7-9d38-444d-9f0a-2efacb6387c7",
+    "brand": "84fab0cc-97c0-487f-a34e-fee052d94fd0",
+    "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+    "sizes": [
+      "99b2df73-e6ca-4c5f-840c-8921fac01a8c",
+      "0e9e16ed-dedc-4694-be08-073c82d4aef7",
+      "6e034d55-0289-4b26-943e-c8c1b925b2eb",
+      "54b844b4-26df-4171-a4ca-2e3144522c18"
+    ],
+    "price": [
+      {
+        "currency": "eee4a340-2e02-471d-aaf3-debe335e08dc",
+        "code": "USD",
+        "symbol": "$",
+        "amount": 50
+      },
+      {
+        "currency": "e38a6d7d-8320-4376-bf6a-6b8094cb5685",
+        "code": "EUR",
+        "symbol": "€",
+        "amount": 51.5
+      },
+      {
+        "currency": "ba9b0c30-4bdd-4e9e-9221-eeb3bc1af6f4",
+        "code": "JPY",
+        "symbol": "¥",
+        "amount": 7169
+      }
+    ]
+  },
+  {
+    "id": "04a78427-b099-4e6d-b366-86c6c53437d0",
+    "name": "'Cotton Mix Zip-Up Hoodie'",
+    "category": "5c053fa7-9d38-444d-9f0a-2efacb6387c7",
+    "brand": "84fab0cc-97c0-487f-a34e-fee052d94fd0",
+    "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+    "sizes": [
+      "99b2df73-e6ca-4c5f-840c-8921fac01a8c",
+      "0e9e16ed-dedc-4694-be08-073c82d4aef7",
+      "6e034d55-0289-4b26-943e-c8c1b925b2eb",
+      "54b844b4-26df-4171-a4ca-2e3144522c18"
+    ],
+    "price": [
+      {
+        "currency": "eee4a340-2e02-471d-aaf3-debe335e08dc",
+        "code": "USD",
+        "symbol": "$",
+        "amount": 50
+      },
+      {
+        "currency": "e38a6d7d-8320-4376-bf6a-6b8094cb5685",
+        "code": "EUR",
+        "symbol": "€",
+        "amount": 51.5
+      },
+      {
+        "currency": "ba9b0c30-4bdd-4e9e-9221-eeb3bc1af6f4",
+        "code": "JPY",
+        "symbol": "¥",
+        "amount": 7169
+      }
+    ]
+  }
+]
