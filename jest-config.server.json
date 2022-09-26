@@ -1,0 +1,12 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "resetMocks": true,
+  "rootDir": ".",
+  "testRegex": "/services/.*\\.spec\\.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "testPathIgnorePatterns": ["<rootDir>/node_modules/", "<rootDir>/.next/"],
+  "coverageDirectory": "../coverage",
+  "testEnvironment": "node"
+}

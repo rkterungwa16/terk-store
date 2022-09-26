@@ -1,0 +1,30 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts",
+    "tsx"
+  ],
+  "rootDir": ".",
+  "testRegex": "/src/.*\\.spec\\.tsx?$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest",
+    "^.+\\.(jsx|tsx)$": [
+      "babel-jest",
+      {
+        "presets": [
+          "next/babel"
+        ]
+      }
+    ]
+  },
+  "testPathIgnorePatterns": [
+    "<rootDir>/node_modules/",
+    "<rootDir>/.next/"
+  ],
+  "transformIgnorePatterns": [
+    "^.+\\.module\\.(css|sass|scss)$"
+  ],
+  "coverageDirectory": "../coverage",
+  "testEnvironment": "jsdom"
+}
