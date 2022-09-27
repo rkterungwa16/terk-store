@@ -1,0 +1,30 @@
+.Header__link {
+  display: flex;
+  align-items: center;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.Header__link:hover {
+  color: #5ece7b;
+}
+
+.Header__link--inactive {
+  color: #1d1f22;
+}
+
+.Header__link--active {
+  color: #5ece7b;
+  border-bottom: 1px solid #5ece7b;
+}
+
+.HeaderNavLinks__wrapper {
+  display: flex;
+}
