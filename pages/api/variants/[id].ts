@@ -2,7 +2,8 @@ import path from "path";
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from "next";
 
-import { fetchVariant, FetchVariantResponse } from '../../../services/variants';
+import { fetchVariant } from '../../../services/variants';
+import { FetchVariantResponse } from "../../../types";
 
 
 type Data = {

@@ -2,13 +2,7 @@ import brands from "../data/brands.json";
 import products from "../data/products.json";
 import variants from "../data/variants.json";
 import currencies from "../data/currencies.json";
-import { Currency, Brand, Variant,Product } from "../types";
-
-export type FetchVariantResponse = {
-  currency?: Currency;
-  brand?: Brand;
-  product?: Product;
-} & Variant;
+import { Variant, FetchVariantResponse } from "../types";
 
 export function fetchVariant(
   id: string,
@@ -17,6 +11,8 @@ export function fetchVariant(
   const selectedVariant = variants.find(
     (_variant) => _variant.id === id
   ) as Variant;
+
+  const productVariants = variants.filter((_variant) => _variant.id === id);
 
   const selectedProduct = products.find(
     (product) => product.id === selectedVariant?.productId
@@ -30,9 +26,10 @@ export function fetchVariant(
   );
 
   return {
-    ...selectedVariant,
+    selectedVariant,
+    productVariants,
     currency: productCurrency,
     brand: productBrand,
-    product: selectedProduct
+    product: selectedProduct,
   };
 }

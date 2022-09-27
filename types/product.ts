@@ -5,6 +5,7 @@ export type Product = {
   brand: string;
   description: string;
   sizes: string[];
+  inStock?: boolean;
   price: {
     currency: string;
     amount: number;

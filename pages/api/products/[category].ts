@@ -4,11 +4,11 @@ import type { NextApiRequest, NextApiResponse } from "next";
 
 import {
   fetchProducts,
-  FetchProductsResponse,
 } from "../../../services/products";
+import { FetchProductResponse } from "../../../types";
 
 type Data = {
-  data: FetchProductsResponse[];
+  data: FetchProductResponse[];
 };
 
 export default function handler(
