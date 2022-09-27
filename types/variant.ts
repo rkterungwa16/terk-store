@@ -1,3 +1,5 @@
+import { Product } from "./product";
+
 export type Variant = {
   id: string;
   productId: string;
@@ -7,4 +9,5 @@ export type Variant = {
     name: string;
     hexCode: string;
   };
+  product?: Product;
 };

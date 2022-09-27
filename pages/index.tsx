@@ -7,17 +7,20 @@ import styles from "../styles/Home.module.css";
 
 import { fetchProducts } from "../src/store/slice/product";
 import { Currencies } from "../enums";
-import { FetchProductResponse } from "../types";
+import { Currency, FetchProductResponse, Category } from "../types";
 
 type Props = {
   products: FetchProductResponse[];
+  categories: Category[];
+  currencies: Currency[];
 };
 
-const Home: NextPage<Props> = ({ products }) => {
+const Home: NextPage<Props> = ({ products, categories, currencies }) => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchProducts(products));
   }, [products.length]);
+
   return (
     <div className={styles.container}>
       <Head>
@@ -39,13 +42,19 @@ export const getServerSideProps: GetServerSideProps = async ({
     const host = req?.headers.host;
     const category = params?.category ?? "women";
     const currency = query?.currency ?? Currencies.USD;
-    const res = await fetch(
+    const productsRes = await fetch(
       `${protocol}://${host}/api/products/${category}?currency=${currency}`
     );
-    const resJson = await res.json();
+    const categoriesRes = await fetch(`${protocol}://${host}/api/categories`);
+    const currenciesRes = await fetch(`${protocol}://${host}/api/currencies`);
+    const productsResJson = await productsRes.json();
+    const categoresResJson = await categoriesRes.json();
+    const currenciesResJson = await currenciesRes.json();
     return {
       props: {
-        products: resJson,
+        products: productsResJson.data,
+        categories: categoresResJson.data,
+        currencies: currenciesResJson.data,
       },
     };
   } catch (error) {
