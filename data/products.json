@@ -1,7 +1,7 @@
 [
   {
     "id": "68a96c61-0fac-4daf-98f5-1f648f5e4113",
-    "name": "'Fine Knit Sweater with V-Neck'",
+    "name": "Fine Knit Sweater with V-Neck",
     "category": "f5a1e97f-50fe-45ba-8329-fc037c321d9d",
     "brand": "bbe07e79-e148-47d6-879d-0aa34687b3c7",
     "description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
@@ -28,7 +28,7 @@
   },
   {
     "id": "72282eea-31b8-4742-a178-73882024ecca",
-    "name": "'Basic Cardigan'",
+    "name": "Basic Cardigan",
     "category": "f5a1e97f-50fe-45ba-8329-fc037c321d9d",
     "brand": "84fab0cc-97c0-487f-a34e-fee052d94fd0",
     "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
@@ -82,7 +82,7 @@
   },
   {
     "id": "0f3a119a-feab-42be-996a-75ee0594c1d2",
-    "name": "'Cotton Long Sleeve Sweater with Ruffled High Neck'",
+    "name": "Cotton Sweater with Ruffled High Neck",
     "category": "f5a1e97f-50fe-45ba-8329-fc037c321d9d",
     "brand": "84fab0cc-97c0-487f-a34e-fee052d94fd0",
     "description": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
@@ -110,7 +110,7 @@
   },
   {
     "id": "9c667991-9353-410c-a70f-01e7ab4aa91d",
-    "name": "'Merino Wool Turtleneck Sweater'",
+    "name": "Merino Wool Turtleneck Sweater",
     "category": "b9a3d338-db3a-425a-a19d-0142d638f292",
     "brand": "84fab0cc-97c0-487f-a34e-fee052d94fd0",
     "description": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
@@ -137,7 +137,7 @@
   },
   {
     "id": "4c4e8b2e-7d31-4de5-84cc-cea48c9a69b8",
-    "name": "'Cotton Mix Hoodie with Zip Fastening'",
+    "name": "Cotton Mix Hoodie with Zip Fastening",
     "category": "b9a3d338-db3a-425a-a19d-0142d638f292",
     "brand": "84fab0cc-97c0-487f-a34e-fee052d94fd0",
     "description": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
@@ -164,7 +164,7 @@
   },
   {
     "id": "389030af-7ebe-4169-b952-2568ddd0d00b",
-    "name": "'Chunky Knit Sweater with Half Zip'",
+    "name": "Chunky Knit Sweater with Half Zip",
     "category": "5c053fa7-9d38-444d-9f0a-2efacb6387c7",
     "brand": "84fab0cc-97c0-487f-a34e-fee052d94fd0",
     "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
@@ -191,7 +191,7 @@
   },
   {
     "id": "04a78427-b099-4e6d-b366-86c6c53437d0",
-    "name": "'Cotton Mix Zip-Up Hoodie'",
+    "name": "Cotton Mix Zip-Up Hoodie",
     "category": "5c053fa7-9d38-444d-9f0a-2efacb6387c7",
     "brand": "84fab0cc-97c0-487f-a34e-fee052d94fd0",
     "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",

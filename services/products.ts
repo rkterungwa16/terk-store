@@ -43,6 +43,7 @@ export function fetchProducts(
       (_currency) =>
         _currency.id === price?.currency
     );
+
     if (prev[current.productId]) {
       return {
         ...prev,
@@ -71,6 +72,7 @@ export function fetchProducts(
       ],
     };
   }, {});
+
   return Object.values(modifiedVariants).map((_variant: Variant[]) => {
     const checkProductInstock = _variant.reduce(
       (prev: number, current: Variant) => {
@@ -93,12 +95,10 @@ export function fetchProducts(
       },
       []
     );
-    const firstVariantInstock = _variant.find(
-      (_variantInStock) => !!_variantInStock.availableStock
-    );
+
     return {
       productVariants: _variant,
-      variant: firstVariantInstock,
+      variant: _variant[0],
       colors: aggrVariantColors,
       inStock: !!checkProductInstock,
     };

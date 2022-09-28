@@ -1,5 +1,7 @@
 import Link from "next/link";
+import classnames from "classnames";
 import { FC, HTMLAttributes, ReactNode } from "react";
+import { ButtonColor } from "../constants";
 import styles from "./styles.module.css";
 
 interface IconButtonProps
@@ -7,6 +9,7 @@ interface IconButtonProps
   href?: string;
   disabled?: boolean;
   children?: ReactNode;
+  color?: ButtonColor;
 }
 
 export const IconButton: FC<IconButtonProps> = ({
@@ -14,8 +17,13 @@ export const IconButton: FC<IconButtonProps> = ({
   children,
   disabled = false,
   className = "",
+  color,
   ...props
 }) => {
+  const buttonStyles = {
+    [styles["IconButton--disabled"]]: disabled,
+    [styles["IconButton--primary"]]: color === ButtonColor.PRIMARY,
+  };
   if (typeof href !== "undefined") {
     return (
       <Link href={href}>
@@ -26,7 +34,13 @@ export const IconButton: FC<IconButtonProps> = ({
     );
   }
   return (
-    <button className={styles.IconButton} disabled={disabled} {...props}>
+    <button
+      className={classnames(styles.IconButton, {
+        ...buttonStyles,
+      })}
+      disabled={disabled}
+      {...props}
+    >
       {children}
     </button>
   );

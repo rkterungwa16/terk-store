@@ -21,3 +21,8 @@
   border-radius: 50%;
   cursor: pointer;
 }
+
+.IconButton--primary {
+  background: #5ece7b;
+  color: #ffffff;
+}
