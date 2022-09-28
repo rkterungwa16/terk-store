@@ -1,6 +1,6 @@
 import { Variant } from ".";
 
-export type CartItems = {
+export type CartItem = {
   quantity: number;
   item: Variant;
-}[];
+};

@@ -1,7 +1,7 @@
 .Header__container {
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;

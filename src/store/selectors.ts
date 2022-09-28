@@ -1,4 +1,4 @@
 import { RootState } from "./state";
 
-export const cart = (state: RootState) => state.cartState;
-export const product = (state: RootState) => state.productState;
+export const cartSelector = (state: RootState) => state.cart;
+export const productSelector = (state: RootState) => state.product;

@@ -1,11 +1,23 @@
+import { FC } from "react";
+
+import { IconButton } from "../../buttons";
 import { CartIcon } from "../../icons";
 
 import styles from "./styles.module.css";
 
-export const HeaderCartBadge = () => {
+type Props = {
+  totalNumberOfItems?: number;
+};
+
+export const HeaderCartBadge: FC<Props> = ({ totalNumberOfItems }) => {
   return (
     <div className={styles.HeaderCartBadge__container}>
-      <CartIcon />
+      {!!totalNumberOfItems && (
+        <span className={styles.HeaderCart__badge}>{totalNumberOfItems}</span>
+      )}
+      <IconButton>
+        <CartIcon />
+      </IconButton>
     </div>
   );
 };

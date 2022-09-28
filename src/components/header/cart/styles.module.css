@@ -28,3 +28,26 @@
 .HeaderCurrency__code {
   margin-left: 0.5rem;
 }
+
+.HeaderCartBadge__container {
+  position: relative;
+}
+
+.HeaderCart__badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.25rem;
+  width: 1.25rem;
+  position: absolute;
+  border-radius: 50%;
+  background: #1d1f22;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  top: 0px;
+  right: 0px;
+}

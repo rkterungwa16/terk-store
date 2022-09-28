@@ -1,3 +1,12 @@
 .Header {
   width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .Header {
+    padding-left: 8.25rem;
+    padding-right: 8.25rem;
+  }
 }

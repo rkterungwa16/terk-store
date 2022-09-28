@@ -1,7 +1,8 @@
-import { CartItems, FetchProductResponse } from "../../types";
+import { CartItem, FetchProductResponse } from "../../types";
 
 export interface CartState {
-  items: CartItems;
+  totalNumberOfCartItems: number;
+  items: CartItem[];
 }
 
 export interface ProductState {
@@ -10,6 +11,6 @@ export interface ProductState {
 }
 
 export interface RootState {
-  cartState: CartState;
-  productState: ProductState;
+  cart: CartState;
+  product: ProductState;
 }

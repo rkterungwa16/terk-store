@@ -10,6 +10,7 @@ import { CategoryNames, Currencies } from "../../enums";
 import { Currency, FetchProductResponse, Category } from "../../types";
 import { LayoutContainer } from "../../src/layout";
 import { Header } from "../../src/components/header";
+import { cartSelector, productSelector } from "../../src/store/selectors";
 
 type Props = {
   products: FetchProductResponse[];
@@ -27,6 +28,9 @@ const Home: NextPage<Props> = ({
   category,
 }) => {
   const dispatch = useDispatch();
+  const cart = useSelector(cartSelector);
+  const product = useSelector(productSelector);
+
   useEffect(() => {
     dispatch(fetchProducts(products));
   }, [products.length]);
@@ -38,6 +42,7 @@ const Home: NextPage<Props> = ({
         currencies={currencies}
         selectedCategory={category}
         selectedCurrency={currency}
+        totalNumberOfItems={cart.totalNumberOfCartItems}
       />
     </LayoutContainer>
   );

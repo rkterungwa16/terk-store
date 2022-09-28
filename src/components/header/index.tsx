@@ -9,12 +9,14 @@ import { HeaderCurrencies } from "./cart/Currencies";
 
 import { CartIcon, ChevronDownIcon } from "../icons";
 import styles from "./styles.module.css";
+import { HeaderCartBadge } from "./cart/Badge";
 
 type Props = {
   categories: Category[];
   selectedCategory: CategoryNames;
   currencies: Currency[];
   selectedCurrency: Currency;
+  totalNumberOfItems?: number;
 };
 
 export const Header: FC<Props> = ({
@@ -22,8 +24,8 @@ export const Header: FC<Props> = ({
   currencies,
   selectedCategory,
   selectedCurrency,
+  totalNumberOfItems,
 }) => {
-
   return (
     <header className={styles.Header}>
       <HeaderContainer>
@@ -38,9 +40,7 @@ export const Header: FC<Props> = ({
             currencies={currencies}
             category={selectedCategory}
           />
-          <IconButton>
-            <CartIcon />
-          </IconButton>
+          <HeaderCartBadge totalNumberOfItems={totalNumberOfItems} />
         </div>
       </HeaderContainer>
     </header>
