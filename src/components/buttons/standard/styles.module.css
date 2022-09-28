@@ -1,0 +1,47 @@
+.StandardButton {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.375rem;
+  padding-right: 1.375rem;
+  border: transparent;
+}
+
+.StandardButtonSize--xs {
+  min-width: 1.5rem;
+  min-height: 1.5rem;
+}
+
+.StandardButtonSize--sm {
+  min-width: 3.9375rem;
+  min-height: 2.6875rem;
+}
+
+.StandardButtonSize--base {
+  min-width: 3.9375rem;
+  min-height: 3.25rem;
+}
+
+.StandardButton--disabled {
+  @apply opacity-50;
+}
+
+.StandardButton--primary {
+  background: #5ECE7B;
+  color: #ffffff;
+}
+
+.StandardButton__outlined--default {
+  background: #FFFFFF;
+  border: 1px solid #1D1F22;
+  color: #1D1F22;
+}

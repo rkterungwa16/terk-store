@@ -16,7 +16,7 @@ type Props = {
   categories: Category[];
   currencies: Currency[];
   category: CategoryNames;
-  currency: Currencies;
+  currency: Currency;
 };
 
 const Home: NextPage<Props> = ({
@@ -67,7 +67,9 @@ export const getServerSideProps: GetServerSideProps = async ({
         categories: categoresResJson.data,
         currencies: currenciesResJson.data,
         category,
-        currency,
+        currency: currenciesResJson.data.find(
+          (_currency: Currency) => _currency.code === currency
+        ),
       },
     };
   } catch (error) {

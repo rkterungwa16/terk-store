@@ -1,0 +1,30 @@
+.HeaderCart__container {
+  display: flex;
+  position: relative;
+}
+
+.CurrencyDropdown__item--link {
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  padding: 0.75rem;
+}
+
+.HeaderCurrencies__container {
+  display: flex;
+  position: relative;
+}
+.Header__currency {
+  display: flex;
+  align-items: center;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #1d1f22;
+}
+
+.HeaderCurrency__code {
+  margin-left: 0.5rem;
+}
