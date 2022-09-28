@@ -11,13 +11,6 @@ import styles from "./styles.module.css";
 import { DropdownMenu } from "../../dropdown/DropdownMenu";
 import { DropdownItem } from "../../dropdown/DropdownItem";
 
-const CurrenciesDropdownList = () => {
-  return (
-    <Link href="">
-      <a className={styles["CurrencyDropdown__item--link"]}></a>
-    </Link>
-  );
-};
 type HeaderCurrenciesProps = {
   currency?: Currency;
   currencies?: Currency[];
