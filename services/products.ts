@@ -36,12 +36,12 @@ export function fetchProducts(
       (_product) => _product.id === current.productId
     );
     const brand = brands.find((_brand) => _brand.id === product?.brand);
+    const price = product?.price.find(
+      (_productPrice) => _productPrice.currency === selectedCurrency?.id
+    )
     const currency = currencies.find(
       (_currency) =>
-        _currency.id ===
-        product?.price.find(
-          (_productPrice) => _productPrice.currency === selectedCurrency?.id
-        )?.currency
+        _currency.id === price?.currency
     );
     if (prev[current.productId]) {
       return {
@@ -53,6 +53,7 @@ export function fetchProducts(
             product,
             brand,
             currency,
+            price
           },
         ],
       };
@@ -65,6 +66,7 @@ export function fetchProducts(
           product,
           brand,
           currency,
+          price
         },
       ],
     };

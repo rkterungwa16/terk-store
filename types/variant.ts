@@ -1,3 +1,5 @@
+import { Brand } from "./brand";
+import { Currency } from "./currency";
 import { Product } from "./product";
 
 export type Variant = {
@@ -10,4 +12,10 @@ export type Variant = {
     hexCode: string;
   };
   product?: Product;
+  brand?: Brand;
+  currency?: Currency;
+  price?: {
+    currency: string;
+    amount: number;
+  };
 };
