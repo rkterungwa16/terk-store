@@ -1,11 +1,14 @@
 import { FC, useState } from "react";
 import Image from "next/image";
+import { useSelector, useDispatch } from "react-redux";
 
 import { CategoryNames } from "../../../enums";
+import { addVariantToCart } from "../../../src/store/slice/cart";
 import { FetchVariantResponse, Category, Currency } from "../../../types";
 import styles from "./styles.module.css";
 import { ProductColors, ProductSizes } from "../../components/product";
 import { StandardButton } from "../../components/buttons";
+import { cartSelector } from "../../store/selectors";
 
 type Props = {
   productVariant: FetchVariantResponse | null;
@@ -16,6 +19,8 @@ type Props = {
 };
 export const Product: FC<Props> = ({ productVariant }) => {
   const [selectedImage, setSelectedImage] = useState(0);
+  const cart = useSelector(cartSelector);
+  const dispatch = useDispatch();
   const handleSelectImageClick = (index: number) => {
     return () => {
       setSelectedImage(index);
@@ -91,6 +96,11 @@ export const Product: FC<Props> = ({ productVariant }) => {
             variant="contained"
             color="primary"
             fullWidth
+            onClick={() => {
+              dispatch(
+                addVariantToCart(productVariant as FetchVariantResponse)
+              );
+            }}
           >
             ADD TO CART
           </StandardButton>

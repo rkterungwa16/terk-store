@@ -1,6 +1,6 @@
-import { Variant } from ".";
+import { Variant, FetchVariantResponse } from ".";
 
 export type CartItem = {
   quantity: number;
-  item: Variant;
+  item: FetchVariantResponse;
 };

@@ -65,6 +65,14 @@
   padding-bottom: 1rem;
 }
 
+.Product__price {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 18px;
+  color: #1d1f22;
+}
+
 .Product__btn {
   margin-top: 1rem;
   margin-bottom: 1rem;

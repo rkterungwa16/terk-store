@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
 
-import { CartItem, Variant } from "../../../types";
+import { CartItem, Variant, FetchVariantResponse } from "../../../types";
 import { CartState } from "../state";
 
 const initialState: CartState = {
@@ -13,7 +13,7 @@ export const cartSlice = createSlice({
   name: "cart",
   initialState,
   reducers: {
-    addVariantToCart: (state, action: PayloadAction<Variant>) => {
+    addVariantToCart: (state, action: PayloadAction<FetchVariantResponse>) => {
       state.items.push({
         quantity: 1,
         item: action.payload,
@@ -27,24 +27,24 @@ export const cartSlice = createSlice({
     },
     removeVariantFromCart: (state, action: PayloadAction<string>) => {
       const itemExists = state.items.find(
-        (_variant) => _variant.item.id === action.payload
+        (_variant) => _variant.item.selectedVariant.id === action.payload
       );
       if (itemExists) {
         state.totalNumberOfCartItems =
           state.totalNumberOfCartItems - itemExists?.quantity;
         state.items = state.items.filter(
-          (_variant) => _variant.item.id !== action.payload
+          (_variant) => _variant.item.selectedVariant.id !== action.payload
         );
       }
     },
     increaseCartVariantQuantity: (state, action: PayloadAction<string>) => {
       const itemExists = state.items.find(
-        (_variant) => _variant.item.id === action.payload
+        (_variant) => _variant.item.selectedVariant.id  === action.payload
       );
       if (itemExists) {
         state.totalNumberOfCartItems = state.totalNumberOfCartItems + 1;
         state.items = state.items.map((_variant) => {
-          if (_variant.item.id === action.payload) {
+          if (_variant.item.selectedVariant.id  === action.payload) {
             return {
               ..._variant,
               quantity: _variant.quantity + 1,
