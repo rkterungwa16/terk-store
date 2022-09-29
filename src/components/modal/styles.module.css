@@ -2,6 +2,7 @@
   position: relative;
   z-index: 999;
   overflow: hidden;
+  overflow-y: scroll;
 }
 
 .Modal__dialog {
@@ -12,6 +13,8 @@
   right: 100px;
   top: 0px;
   background: #FFFFFF;
+  overflow-y: scroll;
+  height: 100vh;
 }
 
 .ModalDialog__transparent {
