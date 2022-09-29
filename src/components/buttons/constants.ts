@@ -1,6 +1,6 @@
 export type Type = "button" | "submit";
 export type Color = "default" | "primary";
-export type Size = "sm" | "base";
+export type Size = "sm" | "base" | "xs";
 export type ButtonVariant = "contained" | "outlined";
 
 export enum ButtonType {

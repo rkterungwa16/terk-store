@@ -1,4 +1,5 @@
 import { FC } from "react";
+import classnames from "classnames";
 
 import { Size } from "../../../../types";
 import { StandardButton } from "../../buttons";
@@ -8,8 +9,9 @@ import styles from "./styles.module.css";
 
 type Props = {
   sizes: Size[];
+  buttonSize?: "sm" | "xs";
 };
-export const ProductSizes: FC<Props> = ({ sizes }) => {
+export const ProductSizes: FC<Props> = ({ sizes, buttonSize = "sm" }) => {
   return (
     <div className={styles.ProductSizes__container}>
       <span className={styles.ProductSizes__title}>Size:</span>
@@ -17,9 +19,16 @@ export const ProductSizes: FC<Props> = ({ sizes }) => {
         {sizes.map((_size) => (
           <div
             key={_size.id}
-            className={styles["ProductSizes__buttons--wrapper"]}
+            className={classnames({
+              [styles["ProductSizes__buttons--small"]]: buttonSize === "xs",
+              [styles["ProductSizes__buttons--wrapper"]]: buttonSize === "sm",
+            })}
           >
-            <StandardButton variant="outlined" color={ButtonColor.DEFAULT}>
+            <StandardButton
+              size={buttonSize}
+              variant="outlined"
+              color={ButtonColor.DEFAULT}
+            >
               {_size.size}
             </StandardButton>
           </div>

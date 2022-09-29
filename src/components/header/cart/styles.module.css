@@ -51,3 +51,44 @@
   top: 0px;
   right: 0px;
 }
+
+.CartDropdown__title--bold {
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.CartDropdown__title--normal {
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.CartDropdown__header {
+  display: flex;
+  width: 100%;
+}
+.CartDropdown__footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+.CartDropdown__total--text {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #1d1f22;
+}
+
+.CartDropdown__total--amount {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+}

@@ -22,9 +22,10 @@ export const ProductDetail: FC<Props> = ({ productVariant }) => (
         )?.amount
       }`}
     </span>
-    <ProductSizes sizes={productVariant?.product?.sizes ?? []} />
+    <ProductSizes buttonSize="xs" sizes={productVariant?.product?.sizes ?? []} />
     <ProductColors
       colors={productVariant?.colors ?? []}
+      size="xs"
       currentColor={productVariant?.selectedVariant.color}
     />
   </div>

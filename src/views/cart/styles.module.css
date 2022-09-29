@@ -1,5 +1,5 @@
 .Product__details {
-  padding: 1rem;
+  /* padding: 1rem; */
   display: flex;
   flex-direction: column;
 }
@@ -7,49 +7,58 @@
 .Product__brand {
   font-family: "Raleway";
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 27px;
 }
 
 .Product__name {
   font-family: "Raleway";
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 27px;
-  padding-bottom: 1rem;
+  padding-bottom: 0rem;
 }
 
 .Product__price {
   font-family: "Raleway";
   font-weight: 700;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 18px;
   color: #1d1f22;
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0rem;
 }
 
 .Cart {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
 }
 
 .Cart__item--wrapper {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .CartItem__actions--wrapper {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .CartItem__buttons--wrapper {
-  width: 63px;
-  height: 45px;
+  width: 2.2rem;
+  height: 2.2rem;
+  text-align: center;
+}
+.CartItem__buttons--wrapper > button {
+  font-size: 2.0rem;
+  font-weight: 300;
 }
 
 .CartItem__btns {
@@ -60,8 +69,8 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .Cart {
+  /* .Cart {
     padding-left: 8.25rem;
     padding-right: 8.25rem;
-  }
+  } */
 }

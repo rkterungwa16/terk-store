@@ -38,7 +38,7 @@ export const Header: FC<Props> = ({
             currencies={currencies}
             category={selectedCategory}
           />
-          <HeaderCartBadge totalNumberOfItems={totalNumberOfItems} />
+          <HeaderCartBadge currency={selectedCurrency} totalNumberOfItems={totalNumberOfItems} />
         </div>
       </HeaderContainer>
     </header>

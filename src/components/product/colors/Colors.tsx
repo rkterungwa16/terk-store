@@ -9,8 +9,13 @@ import Link from "next/link";
 type Props = {
   colors: Color[];
   currentColor?: Color;
+  size: "sm" | "xs";
 };
-export const ProductColors: FC<Props> = ({ colors, currentColor }) => {
+export const ProductColors: FC<Props> = ({
+  colors,
+  currentColor,
+  size = "sm",
+}) => {
   return (
     <div className={styles.ProductColors__container}>
       <span className={styles.ProductColors__title}>Color:</span>
@@ -18,9 +23,11 @@ export const ProductColors: FC<Props> = ({ colors, currentColor }) => {
         {colors.map((_color, index) => (
           <div
             key={index}
-            className={classnames(styles["Product__color--wrapper"], {
+            className={classnames({
               [styles["Product__color--active"]]:
                 currentColor?.hexCode === _color.hexCode,
+              [styles["ProductColor__wrapper--small"]]: size === "xs",
+              [styles["Product__color--wrapper"]]: size === "sm",
             })}
           >
             <Link href={`/product/${_color.variantId}`}>

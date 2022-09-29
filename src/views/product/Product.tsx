@@ -80,6 +80,7 @@ export const Product: FC<Props> = ({ productVariant }) => {
         <ProductSizes sizes={productVariant?.product?.sizes ?? []} />
         <ProductColors
           colors={productVariant?.colors ?? []}
+          size="sm"
           currentColor={productVariant?.selectedVariant.color}
         />
         <span className={styles["Product__price--title"]}>Price:</span>

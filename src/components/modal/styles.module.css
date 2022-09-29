@@ -1,0 +1,33 @@
+.Modal__container {
+  position: relative;
+  z-index: 999;
+  overflow: hidden;
+}
+
+.Modal__dialog {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding: 2rem 1rem;
+  right: 100px;
+  top: 0px;
+  background: #FFFFFF;
+}
+
+.ModalDialog__transparent {
+  background: transparent;
+}
+
+.ModalDialog__black {
+  background: black;
+}
+
+.Modal__overlay {
+  position: absolute;
+  left: 0;
+  top: 78px;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  background: rgba(57, 55, 72, 0.22);
+}

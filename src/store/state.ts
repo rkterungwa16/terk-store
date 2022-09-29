@@ -3,6 +3,7 @@ import { CartItem, FetchProductResponse, FetchVariantResponse } from "../../type
 export interface CartState {
   totalNumberOfCartItems: number;
   items: CartItem[];
+  totalAmount: number;
 }
 
 export interface ProductState {

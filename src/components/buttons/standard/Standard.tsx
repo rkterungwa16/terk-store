@@ -27,7 +27,7 @@ interface StandardButtonProps
 
 export const StandardButton: FC<StandardButtonProps> = ({
   type = "button",
-  size = "xl",
+  size = "xs",
   variant = "contained",
   href,
   children,
@@ -39,7 +39,7 @@ export const StandardButton: FC<StandardButtonProps> = ({
   ...props
 }) => {
   const buttonSizeStyle = {
-    [styles["StandardButtonSize--sm"]]: size === ButtonSize.XS,
+    [styles["StandardButtonSize--xs"]]: size === ButtonSize.XS,
     [styles["StandardButtonSize--sm"]]: size === ButtonSize.SM,
     [styles["StandardButtonSize--base"]]: size === ButtonSize.BASE,
   };
