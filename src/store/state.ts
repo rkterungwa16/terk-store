@@ -1,4 +1,4 @@
-import { CartItem, FetchProductResponse } from "../../types";
+import { CartItem, FetchProductResponse, FetchVariantResponse } from "../../types";
 
 export interface CartState {
   totalNumberOfCartItems: number;
@@ -6,7 +6,7 @@ export interface CartState {
 }
 
 export interface ProductState {
-  selectedVariant: FetchProductResponse | null;
+  selectedVariant: FetchVariantResponse | null;
   products: FetchProductResponse[];
 }
 

@@ -99,7 +99,7 @@ export function fetchProducts(
     return {
       productVariants: _variant,
       variant: _variant[0],
-      colors: aggrVariantColors,
+      color: aggrVariantColors,
       inStock: !!checkProductInstock,
     };
   });

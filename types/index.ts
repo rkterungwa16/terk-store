@@ -7,3 +7,4 @@ export * from "./fetchProductResponse";
 export * from "./fetchVariantResponse";
 export * from "./cart";
 export * from "./color";
+export * from "./size";

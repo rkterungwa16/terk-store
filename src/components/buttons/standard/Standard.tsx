@@ -8,7 +8,7 @@ import {
   Color,
   Size,
   Type,
-  Variant,
+  ButtonVariant,
 } from "../constants";
 import styles from "./styles.module.css";
 
@@ -17,7 +17,7 @@ interface StandardButtonProps
   type?: Type;
   color?: Color;
   size?: Size;
-  variant?: Variant;
+  variant?: ButtonVariant;
   href?: string;
   disabled?: boolean;
   fullWidth?: boolean;

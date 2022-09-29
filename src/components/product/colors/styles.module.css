@@ -1,0 +1,37 @@
+.ProductColors__container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.ProductColors__title {
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.ProductColors__button--container {
+  display: flex;
+}
+.Product__color {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.Product__color--wrapper {
+  position: relative;
+  margin-right: 0.2rem;
+  border: none;
+  width: 2.2rem;
+  height: 2.2rem;
+}
+.Product__color--active {
+  border: 2px solid #5ece7b;
+}

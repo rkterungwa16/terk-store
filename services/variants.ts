@@ -12,7 +12,7 @@ export function fetchVariant(
     (_variant) => _variant.id === id
   ) as Variant;
 
-  const productVariants = variants.filter((_variant) => _variant.id === id);
+  const productVariants = variants.filter((_variant) => _variant.productId === selectedVariant.productId);
 
   const selectedProduct = products.find(
     (product) => product.id === selectedVariant?.productId
@@ -25,11 +25,17 @@ export function fetchVariant(
     (_currency) => _currency.code === currency
   );
 
+  const productColors = productVariants.map((_variant) => ({
+    ..._variant.color,
+    variantId: _variant.id
+  }))
+
   return {
     selectedVariant,
     productVariants,
     currency: productCurrency,
     brand: productBrand,
     product: selectedProduct,
+    colors: productColors
   };
 }

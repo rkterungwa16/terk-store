@@ -9,9 +9,10 @@ export type FetchProductResponse = {
   currency?: Currency;
   product?: Product;
   variant?: Variant;
-  colors?: {
+  color?: {
     variantId: string;
     colorDetails: Color;
   }[];
+  colors?: Color[];
   productVariants?: Variant[];
 };

@@ -1,0 +1,26 @@
+.ProductSizes__container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.ProductSizes__title {
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.ProductSizes__button--container {
+  display: flex;
+}
+
+.ProductSizes__buttons--wrapper {
+  margin-right: 0.20rem;
+  width: 63px;
+  height: 45px;
+}

@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { CategoryNames } from "../../../enums";
 import { Category, Currency, FetchProductResponse } from "../../../types";
-import { ProductCard } from "./ProductCard";
+import { ProductCard } from "../../components/product";
 
 import styles from "./styles.module.css";
 
@@ -32,6 +32,8 @@ export const Home: FC<Props> = ({
             currencySymbol={_product.variant?.currency?.symbol}
             brand={_product.variant?.brand?.name}
             price={_product.variant?.price?.amount}
+            variantId={_product.variant?.id}
+            availableStock={_product.variant?.availableStock}
           />
         ))}
       </div>

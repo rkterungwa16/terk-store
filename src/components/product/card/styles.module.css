@@ -1,0 +1,57 @@
+.ProductCards__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ProductCard__product--details {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding-top: 1.5rem;
+}
+
+.ProductCard__text {
+  font-family: "Raleway";
+  font-size: 14px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  color: #1d1f22;
+  max-width: 300px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.ProductCard__product--name {
+  font-weight: 300;
+}
+
+.ProductCard__product--price {
+  font-weight: 500;
+}
+
+.ProductCard__image--container {
+  position: relative;
+}
+
+.ProductCard__cart {
+  position: absolute;
+  right: 14px;
+  bottom: -14px;
+}
+
+.ProductCard__notavailable {
+  position: absolute;
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 160%;
+  top: 50%;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  color: #8d8f9a;
+}
+
+.ProductCard__notavailable--image {
+  opacity: 0.5;
+}

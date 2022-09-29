@@ -4,7 +4,10 @@ export type Product = {
   category: string;
   brand: string;
   description: string;
-  sizes: string[];
+  sizes: {
+    id: string;
+    size: string;
+  }[];
   inStock?: boolean;
   price: {
     currency: string;
