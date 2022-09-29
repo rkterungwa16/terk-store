@@ -55,14 +55,32 @@
 }
 
 .Product__price--title {
-  font-family: 'Roboto Condensed';
+  font-family: "Roboto Condensed";
   font-weight: 700;
   font-size: 18px;
   line-height: 18px;
-  color: #1D1F22;
+  color: #1d1f22;
   text-transform: uppercase;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.Product__btn {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.Product__description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 159.96%;
+  color: #1d1f22;
+  max-width: 290px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 @media only screen and (min-width: 768px) {
@@ -85,5 +103,3 @@
     padding-right: 8.25rem;
   }
 }
-
-

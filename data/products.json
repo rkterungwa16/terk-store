@@ -169,10 +169,10 @@
     "brand": "84fab0cc-97c0-487f-a34e-fee052d94fd0",
     "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
     "sizes": [
-      { "id": "fab74a16-ac63-432d-9371-22aaffe6c216", "size": "L" },
-      { "id": "845f9dd5-3fc6-45e2-b9bf-bbadfadeaa93", "size": "M" },
-      { "id": "afafae72-bcc3-4a46-94a7-1758502a1aec", "size": "S" },
-      { "id": "811d47d5-e9c5-45e7-aa17-6079a3ee7aa7", "size": "XS" }
+      { "id": "99b2df73-e6ca-4c5f-840c-8921fac01a8c", "size": "6" },
+      { "id": "0e9e16ed-dedc-4694-be08-073c82d4aef7", "size": "8" },
+      { "id": "6e034d55-0289-4b26-943e-c8c1b925b2eb", "size": "10" },
+      { "id": "54b844b4-26df-4171-a4ca-2e3144522c18", "size": "12" }
     ],
     "price": [
       {
@@ -196,10 +196,10 @@
     "brand": "84fab0cc-97c0-487f-a34e-fee052d94fd0",
     "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
     "sizes": [
-      { "id": "fab74a16-ac63-432d-9371-22aaffe6c216", "size": "L" },
-      { "id": "845f9dd5-3fc6-45e2-b9bf-bbadfadeaa93", "size": "M" },
-      { "id": "afafae72-bcc3-4a46-94a7-1758502a1aec", "size": "S" },
-      { "id": "811d47d5-e9c5-45e7-aa17-6079a3ee7aa7", "size": "XS" }
+      { "id": "99b2df73-e6ca-4c5f-840c-8921fac01a8c", "size": "6" },
+      { "id": "0e9e16ed-dedc-4694-be08-073c82d4aef7", "size": "8" },
+      { "id": "6e034d55-0289-4b26-943e-c8c1b925b2eb", "size": "10" },
+      { "id": "54b844b4-26df-4171-a4ca-2e3144522c18", "size": "12" }
     ],
     "price": [
       {

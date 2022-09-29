@@ -13,7 +13,7 @@ type Props = {
 export const ProductColors: FC<Props> = ({ colors, currentColor }) => {
   return (
     <div className={styles.ProductColors__container}>
-      <span className={styles.ProductColors__title}>Color</span>
+      <span className={styles.ProductColors__title}>Color:</span>
       <div className={styles["ProductColors__button--container"]}>
         {colors.map((_color, index) => (
           <div

@@ -5,6 +5,7 @@ import { CategoryNames } from "../../../enums";
 import { FetchVariantResponse, Category, Currency } from "../../../types";
 import styles from "./styles.module.css";
 import { ProductColors, ProductSizes } from "../../components/product";
+import { StandardButton } from "../../components/buttons";
 
 type Props = {
   productVariant: FetchVariantResponse | null;
@@ -83,6 +84,19 @@ export const Product: FC<Props> = ({ productVariant }) => {
               (_product) => _product.currency === productVariant?.currency?.id
             )?.amount
           }`}
+        </span>
+        <div className={styles.Product__btn}>
+          <StandardButton
+            size="base"
+            variant="contained"
+            color="primary"
+            fullWidth
+          >
+            ADD TO CART
+          </StandardButton>
+        </div>
+        <span className={styles.Product__description}>
+          {productVariant?.product?.description}
         </span>
       </div>
     </div>

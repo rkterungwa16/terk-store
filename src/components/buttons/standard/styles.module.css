@@ -6,6 +6,7 @@
   line-height: 120%;
 
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
   text-transform: uppercase;
@@ -14,6 +15,7 @@
   padding-left: 1.375rem;
   padding-right: 1.375rem;
   border: transparent;
+  cursor: pointer;
 }
 
 .StandardButtonSize--xs {
@@ -44,4 +46,8 @@
   background: #FFFFFF;
   border: 1px solid #1D1F22;
   color: #1D1F22;
+}
+
+.StandardButton__full {
+  width: 100%;
 }

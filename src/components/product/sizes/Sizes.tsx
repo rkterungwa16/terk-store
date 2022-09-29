@@ -12,7 +12,7 @@ type Props = {
 export const ProductSizes: FC<Props> = ({ sizes }) => {
   return (
     <div className={styles.ProductSizes__container}>
-      <span className={styles.ProductSizes__title}>Size</span>
+      <span className={styles.ProductSizes__title}>Size:</span>
       <div className={styles["ProductSizes__button--container"]}>
         {sizes.map((_size) => (
           <div
