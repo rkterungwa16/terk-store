@@ -30,7 +30,6 @@ export const HeaderCartBadge: FC<Props> = ({
   const handleModalCloseClick = () => {
     setModalOpen(false);
   };
-
   return (
     <div className={styles.HeaderCartBadge__container}>
       {!!totalNumberOfItems && (

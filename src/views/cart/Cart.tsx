@@ -45,7 +45,7 @@ export const Cart = () => {
               <div className={styles["CartItem__buttons--wrapper"]}>
                 <StandardButton
                   onClick={handleItemIncreaseClick(
-                    _item.item.selectedVariant.id
+                    _item?.item?.selectedVariant?.id
                   )}
                   variant="outlined"
                   color={ButtonColor.DEFAULT}

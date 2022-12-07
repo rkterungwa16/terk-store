@@ -11,4 +11,5 @@ export type FetchVariantResponse = {
   brand?: Brand;
   product?: Product;
   colors?: Color[];
+  id?: string;
 };

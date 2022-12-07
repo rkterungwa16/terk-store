@@ -12,7 +12,7 @@ import { cartSelector } from "../../store/selectors";
 
 type Props = {
   productVariant: FetchVariantResponse | null;
-  // categories: Category[];
+  // categories: Category[]
   // currencies: Currency[];
   // category: CategoryNames;
   // currency: Currency;
@@ -26,6 +26,7 @@ export const Product: FC<Props> = ({ productVariant }) => {
       setSelectedImage(index);
     };
   };
+
   return (
     <div className={styles.Product}>
       <div className={styles["Product__image--wrapper"]}>
@@ -98,6 +99,7 @@ export const Product: FC<Props> = ({ productVariant }) => {
             color="primary"
             fullWidth
             onClick={() => {
+              console.log(productVariant);
               dispatch(
                 addVariantToCart(productVariant as FetchVariantResponse)
               );

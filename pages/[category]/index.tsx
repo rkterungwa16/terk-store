@@ -48,6 +48,7 @@ const HomePage: NextPage<Props> = ({
         selectedCategory={category}
         selectedCurrency={currency}
         products={products}
+
       />
     </LayoutContainer>
   );

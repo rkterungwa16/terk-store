@@ -1,7 +1,11 @@
-import { FC } from "react";
+import { FC, useEffect } from "react";
 import { CategoryNames } from "../../../enums";
-import { Category, Currency, FetchProductResponse } from "../../../types";
+import { Category, Currency, FetchProductResponse, FetchVariantResponse } from "../../../types";
 import { ProductCard } from "../../components/product";
+import { useSelector } from "react-redux";
+import { productSelector } from "../../store/selectors";
+import { selectVariant } from "../../store/slice";
+import { useDispatch } from "react-redux";
 
 import styles from "./styles.module.css";
 
@@ -11,6 +15,7 @@ type Props = {
   currencies: Currency[];
   selectedCurrency: Currency;
   products: FetchProductResponse[];
+
 };
 export const Home: FC<Props> = ({
   categories,
@@ -18,13 +23,20 @@ export const Home: FC<Props> = ({
   selectedCategory,
   selectedCurrency,
   products,
+
 }) => {
+ // const dispatch = useDispatch();
+  const product = useSelector(productSelector);
+  //console.log('product', product);
+
 
   return (
     <div className={styles.Home}>
       <h2 className={styles["Home__category--name"]}>{selectedCategory}</h2>
       <div className={styles.ProductCards__container}>
+
         {products.map((_product) => (
+
           <ProductCard
             key={_product.variant?.productId}
             imageUrl={_product.variant?.images[0]}
@@ -34,7 +46,9 @@ export const Home: FC<Props> = ({
             price={_product.variant?.price?.amount}
             variantId={_product.variant?.id}
             availableStock={_product.variant?.availableStock}
+            productVariant={_product.variant as any}
           />
+
         ))}
       </div>
     </div>
