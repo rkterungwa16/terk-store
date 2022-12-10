@@ -25,10 +25,8 @@ export const Home: FC<Props> = ({
   products,
 
 }) => {
- // const dispatch = useDispatch();
-  const product = useSelector(productSelector);
-  //console.log('product', product);
 
+  const product = useSelector(productSelector);
 
   return (
     <div className={styles.Home}>

@@ -45,11 +45,6 @@ export const ProductCard: FC<Props> = ({
   };
   const dispatch = useDispatch();
 
-
-
-  const product = useSelector(productSelector);
-console.log(productVariant, 'the product variant');
-
   return (
     <Link href={`/${availableStock > 0 ? `product/${variantId}` : "#"}`}>
       <a>

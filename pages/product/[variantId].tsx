@@ -17,7 +17,7 @@ type Props = {
   category: CategoryNames;
   currency: Currency;
 };
-//kk
+
 const ProductPage: NextPage<Props> = ({
   productVariant,
   categories,

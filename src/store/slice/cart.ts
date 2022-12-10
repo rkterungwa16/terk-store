@@ -44,6 +44,7 @@ export const cartSlice = createSlice({
           (_price) => _price.currency === action?.payload?.currency?.id
         );
 
+        console.log('cart items',state.items)
         //add price amount to total amount
         const amount = price?.amount ?? 0;
         state.totalAmount = state.totalAmount + amount;
@@ -131,7 +132,7 @@ export const cartSlice = createSlice({
               ..._variant,
               quantity: _variant.quantity + 1,
             };
-          }//
+          }
           return _variant;
         });
       }

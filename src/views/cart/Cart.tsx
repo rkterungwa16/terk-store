@@ -68,11 +68,14 @@ export const Cart = () => {
                 </StandardButton>
               </div>
             </div>
+
             <Image
               src={_item.item.selectedVariant.images[0]}
               alt={_item.item.selectedVariant.color.name}
-              width={200}
-              height={200}
+              width={121}
+              height={190}
+              objectFit="contain"
+              objectPosition="center"
             />
           </div>
         </div>
