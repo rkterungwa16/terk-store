@@ -2,6 +2,7 @@
   /* padding: 1rem; */
   display: flex;
   flex-direction: column;
+  width: 136px;
 }
 
 .Product__brand {

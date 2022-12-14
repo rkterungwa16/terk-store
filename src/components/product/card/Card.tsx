@@ -1,4 +1,4 @@
-import { FC, useState } from "react";
+import { FC, useEffect, useState } from "react";
 import Image from "next/image";
 import classnames from "classnames";
 
@@ -6,10 +6,14 @@ import { Card } from "../../../components/card/Card";
 
 import styles from "./styles.module.css";
 
+import { addVariantToCart, selectVariant } from "../../../store/slice";
+import { FetchVariantResponse } from "../../../../types";
 import { IconButton } from "../../../components/buttons";
 import { CartIcon } from "../../../components/icons";
 import { ButtonColor } from "../../../components/buttons/constants";
 import Link from "next/link";
+import { useDispatch, useSelector } from "react-redux";
+import { productSelector } from "../../../store/selectors";
 
 type Props = {
   imageUrl?: string;
@@ -19,7 +23,9 @@ type Props = {
   currencySymbol?: string;
   variantId?: string;
   availableStock?: number;
+  productVariant: FetchVariantResponse;
 };
+
 export const ProductCard: FC<Props> = ({
   imageUrl,
   name,
@@ -28,6 +34,7 @@ export const ProductCard: FC<Props> = ({
   currencySymbol,
   variantId,
   availableStock = 0,
+  productVariant,
 }) => {
   const [cartIconIsVisible, setCartIconVisible] = useState(false);
   const handleMouseEnter = () => {
@@ -36,6 +43,8 @@ export const ProductCard: FC<Props> = ({
   const handleMouseLeave = () => {
     setCartIconVisible(false);
   };
+  const dispatch = useDispatch();
+
   return (
     <Link href={`/${availableStock > 0 ? `product/${variantId}` : "#"}`}>
       <a>
@@ -57,11 +66,18 @@ export const ProductCard: FC<Props> = ({
               </span>
             )}
             {cartIconIsVisible && (
-              <div className={styles.ProductCard__cart}>
-                <IconButton color={ButtonColor.PRIMARY}>
-                  <CartIcon fill="#ffffff" />
-                </IconButton>
-              </div>
+
+                  <div className={styles.ProductCard__cart} onClick={(e) => {
+                    e.preventDefault();
+                    dispatch(
+                      addVariantToCart({...productVariant, selectedVariant:productVariant as any})
+                    );
+                  }}>
+                    <IconButton color={ButtonColor.PRIMARY}>
+                      <CartIcon fill="#ffffff" />
+                    </IconButton>
+                  </div>
+
             )}
           </div>
           <div className={styles["ProductCard__product--details"]}>
